@@ -2,7 +2,7 @@ NAME := my-echo
 REPOSITORY := ktomoya912/$(NAME)
 TAG := 0.1
 GOOS := linux
-GOARCH := amd64
+GOARCH := windows
 
 .PHONY: build test image-build image-push clean
 build:
